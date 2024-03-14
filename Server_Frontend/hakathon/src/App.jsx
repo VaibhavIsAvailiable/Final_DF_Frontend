@@ -47,11 +47,12 @@ function App() {
             />
             <Route path="/AddCategory" element={<AddCategory />} />
             <Route path="/Logout" element={<Logout />} />
-  <Route path="/welcome" element={<Home />} />
+            <Route path="/editCategory" element={<EditCategory />} />
+            <Route path="/welcome" element={<Home />} />
           </>
         ) : (
           <>
-            <Route path="/" element={<AddCategory />} />
+            <Route path="/" element={<Login/>} />
             
           
           </>
